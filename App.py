@@ -294,8 +294,8 @@ def run():
     if choice == 'User':
         
         # Collecting Miscellaneous Information
-        act_name = st.text_input('Name*')
-        act_mail = st.text_input('Mail*')
+        act_name = st.text_input('Name')
+        act_mail = st.text_input('Mail')
         act_mob  = st.text_input('Mobile Number')
         sec_token = secrets.token_urlsafe(12)
         host_name = socket.gethostname()
