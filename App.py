@@ -232,7 +232,7 @@ def run():
             </a>
         </noscript>
     
-        /*<p>Visitors <img src="https://counter9.stat.ovh/private/freecounterstat.php?c=t2xghr8ak6lfqt3kgru233378jya38dy" title="Free Counter" Alt="web counter" width="60px"  border="0" /></p>*/
+        
     
     ''', unsafe_allow_html=True)
 
