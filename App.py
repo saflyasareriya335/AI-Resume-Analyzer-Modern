@@ -219,7 +219,7 @@ def run():
     st.sidebar.markdown("# Choose Something...")
     activities = ["User", "Feedback", "About", "Admin"]
     choice = st.sidebar.selectbox("Choose among the given options:", activities)
-    link = '<b><a href="#" style="text-decoration: none; color: #021659;">AI Assistant</a></b>' 
+    # link = '<b><a href="#" style="text-decoration: none; color: #021659;">AI Assistant</a></b>' 
     st.sidebar.markdown(link, unsafe_allow_html=True)
     st.sidebar.markdown('''
         <!-- site visitors -->
