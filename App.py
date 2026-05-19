@@ -300,7 +300,7 @@ def run():
         sec_token = secrets.token_urlsafe(12)
         host_name = socket.gethostname()
         ip_add = socket.gethostbyname(host_name)
-        dev_user = os.getlogin()
+        dev_user = os.environ.get('USERNAME', os.environ.get('USER', 'Cloud User'))
         os_name_ver = platform.system() + " " + platform.release()
         g = geocoder.ip('me')
         latlong = g.latlng
