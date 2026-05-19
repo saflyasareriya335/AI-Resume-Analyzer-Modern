@@ -726,14 +726,9 @@ def run():
             Just sit back and relax our tool will do the magic on it's own.<br/><br/>
             <b>Feedback -</b> <br/>
             A place where user can suggest some feedback about the tool.<br/><br/>
-            <b>Admin -</b> <br/>
-            For login use <b>admin</b> as username and <b>admin@resume-analyzer</b> as password.<br/>
-            It will load all the required stuffs and perform analysis.
+            
         </p><br/><br/>
 
-        <p align="justify">
-            Built with 🤍 by AI Assistant
-        </p>
 
         ''',unsafe_allow_html=True)  
 
